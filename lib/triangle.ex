@@ -1,0 +1,2 @@
+defmodule Triangle do
+end
