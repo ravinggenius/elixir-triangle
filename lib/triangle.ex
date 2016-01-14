@@ -5,6 +5,8 @@ defmodule Triangle do
     # IO.puts "base: #{base}, height: #{height}"
     # IO.inspect self
     # IEx.pry
-    base * height / 2
+    Metrix.measure "Triangle.area/2", fn ->
+      base * height / 2
+    end
   end
 end
