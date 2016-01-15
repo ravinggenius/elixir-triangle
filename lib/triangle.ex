@@ -9,4 +9,7 @@ defmodule Triangle do
       base * height / 2
     end
   end
+
+  def equilateral, do: equilateral(Application.get_env(:triangle, :default_length))
+  def equilateral(length), do: {length, length, length}
 end
