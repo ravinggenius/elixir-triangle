@@ -29,4 +29,4 @@ use Mix.Config
 #
 #     import_config "#{Mix.env}.exs"
 
-config :triangle, :default_length, System.get_env("DEF_LENGHT") || 5
+import_config "#{Mix.env}.exs"

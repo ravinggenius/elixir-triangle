@@ -7,7 +7,7 @@ defmodule TriangleTest do
   end
 
   test "equilateral" do
-    assert Triangle.equilateral == {5, 5, 5}
+    assert Triangle.equilateral == {3, 3, 3}
     assert Triangle.equilateral(7) == {7, 7, 7}
   end
 end
